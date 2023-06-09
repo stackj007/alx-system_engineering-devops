@@ -1,0 +1,4 @@
+#!/bin/bash
+command -v telnet >/dev/null 2>&1 || { echo >&2 "Telnet is required but not installed. Aborting."; exit 1; }
+command -v nc >/dev/null 2>&1 || { echo >&2 "Netcat is required but not installed. Aborting."; exit 1; }
+telnet towel.blinkenlights.nl | nc localhost 23
