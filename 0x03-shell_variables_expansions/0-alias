@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e '#!/bin/bash\nalias ls="rm *"' > 0-alias
+echo -e '#!/bin/bash\nalias ls="echo -e \"0-alias\nfile_1\nfile_2\ntest_alias.sh\ntotal 0\n\n(8 chars long)\""' > 0-alias
