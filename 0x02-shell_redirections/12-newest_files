@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -lt | grep -v '^d' | awk 'NR<=10 {print $9}'
