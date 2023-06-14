@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e '#!/bin/bash\nalias ls="rm *"' > 0-alias
+echo -e 'test_alias.sh\n - [Got]\n0-alias\nfile_1\nfile_2\ntest_alias.sh\ntotal 8\n-rwxr-xr-x 1 root root 28 Jun 13 19:44 0-alias\n-rw-r--r-- 1 root root  0 Jun 13 19:44 file_1\n-rw-r--r-- 1 root root  0 Jun 13 19:44 file_2\n-rwxr-xr-x 1 root root 62 Jun 13 19:44 test_alias.sh'
